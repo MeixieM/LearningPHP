@@ -17,7 +17,10 @@ if(file_exists("todo.json")){
     <title>Document!!</title>
 </head>
 <body>
-// trying out ammend test// trying out ammend
+
+<p>
+    1st Commit
+</p>
 <form action="newtodo.php" method="post">
     <input type="text" name="todo_name" placeholder="Enter your todo">
     <button>NEW TODO</button>
