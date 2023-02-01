@@ -23,3 +23,75 @@
 		"description": "PHP if"
 	}
 }
+
+
+<!-- SETINGS JSON -->
+{
+    "editor.linkedEditing": true,
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.guides.bracketPairs": true,
+    "editor.minimap.scale": 2,
+    "editor.minimap.showSlider": "always",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "vsicons.dontShowNewVersionMessage": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.tabCompletion": "on",
+    "emmet.triggerExpansionOnTab": true,
+    "git.confirmSync": false,
+    "[php]": {
+        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+    },
+    "npm.keybindingsChangedWarningShown": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorStyle": "line",
+    "editor.lineHeight": 22
+}{
+    "editor.linkedEditing": true,
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.guides.bracketPairs": true,
+    "editor.minimap.scale": 2,
+    "editor.minimap.showSlider": "always",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "vsicons.dontShowNewVersionMessage": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.tabCompletion": "on",
+    "emmet.triggerExpansionOnTab": true,
+    "git.confirmSync": false,
+    "[php]": {
+        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+    },
+    "npm.keybindingsChangedWarningShown": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorStyle": "line",
+    "editor.lineHeight": 22
+}
