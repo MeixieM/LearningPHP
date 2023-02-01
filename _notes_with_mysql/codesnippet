@@ -7,3 +7,19 @@
 		],
 		"description": "Var_dump"
 	}
+
+	1.configure user snippets
+	2.type 'global'
+	3.name PHP
+
+	"PHP global if": {
+		"scope": "php,html",
+		"prefix": "phpif",
+		"body": [
+			"<?php if($1){",
+			"$2",
+			"} ?>"
+		],
+		"description": "PHP if"
+	}
+}
