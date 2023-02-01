@@ -1,0 +1,9 @@
+	"Create var_dump": {
+		"prefix": "dump",
+		"body": [
+			"echo '<pre>';",
+			"var_dump($1);",
+			"echo '</pre>';",
+		],
+		"description": "Var_dump"
+	}
