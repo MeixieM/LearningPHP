@@ -101,8 +101,9 @@
           echo "<td>" . "&#8369;" . $row['price'] . "</td>";
           echo "<td>" . $row['stock'] . "</td>";
           echo '<td><a href=\'#updateProductModal?updateID=' . $row['id'] .'\'><button class="btn btn-primary"><i class="bi bi-pencil-square" data-bs-toggle="modal" data-bs-target="#updateProductModal"></i></button></a>
-         
-          <a href=\'delete_product.php?deleteID=' . $row['id'] . '\' onClick=\'return confirm("Are you sure you want to delete?")\'"><button class="btn btn-danger"><i class="bi bi-trash3-fill"></i></button></a>
+          <button class="btn btn-danger" id="deleteBtn" data-id=' .$row['id']; ?>">Delete</button>
+
+          <a onClick=\'return confirm("Are you sure you want to delete?")\'"><button class="btn btn-danger"  data-id="\'<?php echo $product['id'];><i class="bi bi-trash3-fill"></i></button></a>
         </td>';
 
           echo "</tr>";
